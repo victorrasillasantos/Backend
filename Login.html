@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al Estacionamiento de Motos ITMINA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Formulario de Inicio de Sesión -->
+<form id="loginForm" action="welcome.php" method="post">
+    <img id="ITMINA" src="https://cdn-icons-png.freepik.com/512/7718/7718888.png" alt="Logo ITMINA" width="100">
+    <h2>Usuarios</h2>
+    
+    <div class="input-group">
+        <input type="text" id="usuario" name="usuario" required>
+        <label for="usuario">Nombre</label>
+    </div>
+
+    <div class="input-group">
+        <input type="password" id="contrasena" name="contrasena" required>
+        <label for="contrasena">Contraseña</label>
+    </div>
+
+    <button type="submit">Iniciar Sesión</button>
+</form>
+
+<div id="mensaje"></div>
+
+<script src="script.js"></script>
+<footer>
+    <p>&copy; 2025 Estacionamiento ITMINA</p>
+</footer>
+</body>
+</html>
